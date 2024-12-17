@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    background-color: grey;
+}
+
+.container{
+    background: url(concert-8049458_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.faq{
+    background: linear-gradient(360deg, black 70%, rgb(17, 4, 73));
+    width: 70%;
+    height: 80%;
+    border: 3px solid rgb(195, 192, 192);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+
+.head{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head h5{
+    color: rgba(0, 128, 255, 0.979);
+    font-weight: 800;
+}
+
+.head h2{
+    font-size: 2.8vw;
+    line-height: 3.2vw;
+}
+
+.head p{
+    font-size: 14px;
+}
+
+.left button{
+    margin-top: 30px;
+    border: none;
+    font-family: montserrat;
+    /* background: linear-gradient(rgb(17, 17, 17)80%, rgb(87, 85, 85)); */
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 3px solid green;
+}
+
+.left button:hover{
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+}
+
+.lists{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+details{
+    /* border: 1px solid white; */
+    padding: 18px 10px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 12px;
+    font-family: josefin sans;
+}
+
+details:hover{
+    scale: 1.1;
+    border: 2px solid white;
+}
+
+details summary{
+    word-spacing: 1px;
+    font-weight: 500;
+}
+
+details p{
+    font-size: 13px;
+    color: brown;
+}
+
+
+@media (max-width:550px) {
+    .faq{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 50px 25px;
+        gap: 30px;
+    }
+
+    .head h2{
+        font-size: 6vw;
+        line-height: 6.5vw;
+    }
+
+    .left button:hover{
+        background-color: white;
+        border: 2px solid grey;
+        color: black;
+    }
+
+    .left{
+        text-align: center;
+    }
+    .right{
+        background-color: rgb(36, 35, 35);
+        padding: 20px 10px;
+        border-radius: 15px;
+    }
+
+    .head p{
+        color: rgb(199, 195, 195);
+    }
+
+    details{
+        line-height: 22px;
+    }
+
+    .head h5{
+        font-size: 5vw;
+    }
+}
+
