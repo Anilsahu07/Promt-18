@@ -17,13 +17,11 @@ html, body{
     align-items: center;
     font-family: poppins;
     background-color: grey;
-}
-
-.container{
     background: url(concert-8049458_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 .faq{
